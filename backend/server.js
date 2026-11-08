@@ -18,7 +18,20 @@ connectDB();
 
 const app = express();
 app.use(express.json());
-app.use(cors())
+app.use(cors());
+
+// Ensure DB connection for every request in serverless/cloud environments
+app.use(async (req, res, next) => {
+  try {
+    await connectDB();
+    next();
+  } catch (err) {
+    return res.status(503).json({
+      message: "Database connection failed. Please check MongoDB Atlas IP Access List (whitelist 0.0.0.0/0).",
+      error: err.message,
+    });
+  }
+});
 
 // Testing API
 app.get("/", (req, res) => {

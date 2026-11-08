@@ -6,9 +6,9 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application to manage and t
 
 ## 🚀 Live Links
 
-- 🔗 **Frontend (Vercel)**: [https://expense-tracker-topaz-six.vercel.app](https://expense-tracker-topaz-six.vercel.app)
-- 🔗 **Backend (Render)**: [https://expense-tracker-ooym.onrender.com](https://expense-tracker-ooym.onrender.com)
-- 🔗 **GitHub Repository**: [https://github.com/sharmaHarshit2000/expense-tracker](https://github.com/sharmaHarshit2000/expense-tracker)
+- 🔗 **Frontend (Vercel)**: [https://expense-tracker-frontend-87.vercel.app/](https://expense-tracker-frontend-87.vercel.app/)
+- 🔗 **Backend (Render)**: [https://expense-tracker-backend-87.vercel.app/](https://expense-tracker-backend-87.vercel.app/)
+- 🔗 **GitHub Repository**: [https://github.com/AhmedKhaledYaseen/expense-tracker](https://github.com/AhmedKhaledYaseen/expense-tracker)
 
 ---
 
@@ -30,7 +30,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application to manage and t
 
 - **Frontend:** React, Redux Toolkit, TailwindCSS, MUI and Axios
 - **Backend:** Node.js, Express.js, MongoDB, Mongoose and JWT
-- **Deployment:** Render (Backend), Vercel/Render (Frontend)
+- **Deployment:** Vercel (Backend), Vercel (Frontend)
 - **Charting:** Recharts (Insights)
 
 ---
@@ -40,7 +40,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application to manage and t
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/sharmaHarshit2000/expense-tracker.git
+git clone https://github.com/AhmedKhaledYaseen/expense-tracker.git
 cd expense-tracker
 ```
 
@@ -88,14 +88,14 @@ npm run dev
 
 ## ⚙️ Deployment
 
-### Backend (Render):
+### Backend (Vercel):
 
 - Connect GitHub repo
 - Add Environment Variables (`MONGO_URI`, `JWT_SECRET`)
 - Set build command: `npm install`
 - Set start command: `node index.js` or `npm start`
 
-### Frontend (Vercel or Render):
+### Frontend (Vercel):
 
 - Set `VITE_API_BASE_URL` to backend's deployed URL
 - Set build command: `npm run build`
@@ -161,47 +161,6 @@ expense-tracker/
 │   ├── audit-logs.png
 │   └── insight.png
 ```
-
----
-
-## 📸 Screenshots
-
-🧑‍💼 To view **Audit Logs** and **Admin Panel**, login as an **admin** user.
-
----
-
-### 🔐 Login Page  
-![Login](./screenshots/login.png)
-
----
-
-### 📝 Register Page  
-![Register](./screenshots/register.png)
-
----
-
-### 📊 Dashboard  
-![Dashboard](./screenshots/dashboard.png)
-
----
-
-### 💰 Expenses  
-![Expenses](./screenshots/expenses.png)
-
----
-
-### 📁 Audit Logs  
-![Audit Logs](./screenshots/audit-logs.png)
-
----
-
-### 🛠️ Admin Panel  
-![Admin Panel](./screenshots/admin-panel.png)
-
----
-
-### 📈 Insights (Charts via Recharts)
-![Insights](./screenshots/insight.png)
 
 ---
 

@@ -1,4 +1,6 @@
 /node_modules
+.vercel
+.env*
 
 # frontend
 frontend/node_modules/
