@@ -39,7 +39,7 @@ Configured with **Vercel Services** for unified monorepo deployment under a sing
 
 | Resource | Link |
 | :--- | :--- |
-| **Unified Application (Vercel)** | [expense-tracker-one-ivory-14.vercel.app](https://expense-tracker-one-ivory-14.vercel.app/) |
+| **Unified Application (Vercel)** | [expense-tracker-fullstack-87.vercel.app](https://expense-tracker-fullstack-87.vercel.app/) |
 | **Frontend Mirror** | [expense-tracker-frontend-87.vercel.app](https://expense-tracker-frontend-87.vercel.app/) |
 | **Backend API Mirror** | [expense-tracker-backend-87.vercel.app](https://expense-tracker-backend-87.vercel.app/) |
 | **GitHub Repository** | [github.com/AhmedKhaledYaseen/expense-tracker](https://github.com/AhmedKhaledYaseen/expense-tracker) |
